@@ -59,8 +59,6 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 static const char *termcmd[]  = { "kitty", NULL };
-/* static const char *backlightinc = { "xrandr", "--output", "eDP", "--brightness", "", NULL}; */
-static const char *batterycmd[] = { "dunstify", "`", "cat /sys/class/power_supply/BAT0/capacity", "`", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
